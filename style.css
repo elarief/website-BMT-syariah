@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3fdfb;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://i.pinimg.com/736x/97/26/46/9726466d6fd61fe446cd94cd1c4e234b.jpg');
+    background-size: cover;
+    color: rgb(243, 241, 236);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #41ae9c;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #004d40;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.grid img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quote {
+    background-color: #00695c;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
